@@ -1,0 +1,105 @@
+@charset "UTF-8";
+:root {
+    --input-bg-color: #DBE6F6;
+    --font: "Yatra One", sans-serif ;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    font-family: var(--font);
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+div {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+input {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 2rem;
+    border: none;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: Montserrat;
+    background-color: var(--input-bg-color);
+}
+
+input:hover {
+    background-color: #C5796D;
+}
+
+select {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: Montserrat;
+    border: none;
+    background-color: var(--input-bg-color);
+}
+select:hover {
+    background-color: #C5796D;
+}
+
+
+footer {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2 {
+    font-family: var(--font);
+}
